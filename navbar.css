@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #4CAF50;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}  
+
+.active{
+    background: #36833a;
+    border-radius: 10px;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+}
