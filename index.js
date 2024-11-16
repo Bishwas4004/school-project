@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const students = JSON.parse(localStorage.getItem('students')) || [];
+    // console.log(students)
     const studentsList = document.getElementById('studentsList');
 
     if (students.length === 0) {

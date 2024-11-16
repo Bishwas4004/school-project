@@ -15,5 +15,7 @@ document.getElementById('studentForm').addEventListener('submit', function (even
     students.push(studentInfo);
     localStorage.setItem('students', JSON.stringify(students));
 
-    window.location.href = '/';
+    console.log(localStorage.getItem('students'));
+
+    window.location.href = 'index.html';
 });
